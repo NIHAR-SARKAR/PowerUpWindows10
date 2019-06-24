@@ -1,0 +1,9 @@
+language: csharp
+solution: PowerUpWindows10.sln
+install:
+  - nuget restore PowerUpWindows10.sln
+script:
+  - msbuild /p:Configuration=Release PowerUpWindows10.sln
+ 
+ 
+ 
