@@ -16,7 +16,7 @@ namespace PowerUpWindows10
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new Service()
             };
             ServiceBase.Run(ServicesToRun);
         }
